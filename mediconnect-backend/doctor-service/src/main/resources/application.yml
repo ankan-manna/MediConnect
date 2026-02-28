@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: doctor-service
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/mediconnect_doctor?useSSL=false&serverTimezone=UTC}
+    username: ${DB_USER:mediconnect}
+    password: ${DB_PASSWORD:mediconnect}
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/mediconnect_doctor}
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+
+server:
+  port: ${SERVER_PORT:8083}
+
+app:
+  kafka:
+    topic:
+      prescription-created: prescription-created
+
+spring.kafka:
+  bootstrap-servers: ${KAFKA_BOOTSTRAP:localhost:9092}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

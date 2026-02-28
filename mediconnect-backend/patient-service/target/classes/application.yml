@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: patient-service
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/mediconnect_patient?useSSL=false&serverTimezone=UTC}
+    username: ${DB_USER:mediconnect}
+    password: ${DB_PASSWORD:mediconnect}
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/mediconnect_patient}
+
+server:
+  port: ${SERVER_PORT:8082}
+
+logging:
+  level:
+    root: INFO
+    com.mediconnect: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

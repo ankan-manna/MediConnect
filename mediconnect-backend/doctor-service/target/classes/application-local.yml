@@ -1,0 +1,5 @@
+# Local run: MySQL user ankan (use with --spring.profiles.active=dev,local)
+spring:
+  datasource:
+    username: ankan
+    password: Ankan2004

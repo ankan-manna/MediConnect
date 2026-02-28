@@ -1,0 +1,12 @@
+# Local run: MySQL user ankan (use with --spring.profiles.active=dev,local)
+# Kafka excluded so service can start without Kafka running.
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration
+  datasource:
+    username: ankan
+    password: Ankan2004
+
+server:
+  address: 127.0.0.1

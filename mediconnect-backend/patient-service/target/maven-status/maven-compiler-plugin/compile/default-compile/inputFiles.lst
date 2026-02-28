@@ -1,0 +1,17 @@
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/repository/HealthTimelineRepository.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/entity/HealthTimelineEvent.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/config/SecurityConfig.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/entity/PatientConsent.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/service/ConsentService.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/service/RiskScoreService.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/controller/PatientController.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/dto/ConsentDto.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/dto/HealthTimelineEventDto.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/service/PatientDashboardService.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/exception/GlobalExceptionHandler.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/PatientServiceApplication.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/dto/DashboardResponse.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/repository/RemoteMonitoringRepository.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/entity/RemoteMonitoringData.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/exception/BadRequestException.java
+/Users/ankan/Desktop/untitled folder/mediconnect-backend/patient-service/src/main/java/com/mediconnect/patient/repository/PatientConsentRepository.java
